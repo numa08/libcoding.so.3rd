@@ -1,0 +1,12 @@
+{
+	"manifest_version" : 2,
+	"name" : "hackahackerbar",
+	"version" : "0.1",
+	"content_scripts" : [
+	{
+		"matches" : ["http://hackersbar.net/products/gacha/"],
+		"js" : ["hackahackersbar.js"]
+	}
+	],
+  "web_accessible_resources": ["hackahackersbar.js", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+}
