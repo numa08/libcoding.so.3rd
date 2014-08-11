@@ -5,8 +5,8 @@
 	"content_scripts" : [
 	{
 		"matches" : ["http://hackersbar.net/products/gacha/"],
-		"js" : ["hackahackersbar.js"]
+		"js" : ["movebg.js","hackahackersbar.js"]
 	}
 	],
-  "web_accessible_resources": ["hackahackersbar.js", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  "web_accessible_resources": ["movebg.js","hackahackersbar.js"]
 }

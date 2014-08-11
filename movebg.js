@@ -21,3 +21,9 @@ var moveBg = function() {
   }
 
 };
+
+var script = document.createElement('script');
+if (chrome.extension) {
+  script.src = chrome.extension.getURL('movebg.js');  
+};
+(document.head||document.documentElement).appendChild(script);
